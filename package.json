@@ -1,11 +1,13 @@
 {
   "name": "regbo",
-  "version": "1.0.0",
+  "version": "1.0.9",
   "description": "simple php register example",
   "main": "index.php",
   "dependencies": {},
   "devDependencies": {
-    "gulp": "^4.0.0"
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.11.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
