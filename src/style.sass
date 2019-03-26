@@ -1,0 +1,235 @@
+$primary-color: #fff
+$secondary-color: #000
+$tertiary-color: #e90
+
+$aux-color1: #aaa
+$aux-color1-da: #333
+$aux-color1-li: #eee
+
+$aux-color2: #f66
+
+
+body
+    margin: 0
+    padding: 0
+    font-family: 'Montserrat', sans-serif
+
+
+h2
+    font-size: 32px
+
+div.section
+    padding: 3em 1em 5em 1em
+    text-align: center
+
+div.section-content
+    margin: auto
+
+.section-title
+    text-align: center
+
+.section-subtitle
+    text-align: center
+    color: $aux-color1
+
+.section-text
+    padding: 0 0 2em 0
+    text-align: justify
+
+
+
+div.block-container
+    padding: 2em 0
+
+div.block
+    background: $tertiary-color
+    padding: 1em
+    margin: 1em
+
+div.block-title
+    text-align: center
+    font-weight: bold
+    margin: 0.5em
+
+div.block-content
+
+
+
+div.row-container
+    padding: 1em 0
+
+div.row
+    margin: 0 1em 1px 1em
+    padding: 0.8em
+    background: $primary-color
+    text-align: left
+
+span.row-name
+    padding: 0 0 1em 0
+    color: $aux-color1
+
+span.row-tag
+    margin: 0 1em
+    padding: 0.2em
+
+span.row-count
+    float: right
+    margin: 0 1em 0 0
+    padding: 0.3em 0.6em
+    border-radius: 1em
+    background: $secondary-color
+    color: $primary-color
+
+.red
+    background: $aux-color2
+    color: $primary-color
+
+.orange
+    background: $tertiary-color
+    color: $aux-color1-da
+
+.black
+    background: $secondary-color
+    color: $primary-color
+
+
+
+div.card-container
+    padding: 1em 0
+
+div.card
+    margin: 1em
+    padding: 1em
+    color: $secondary-color
+    background: #fff
+    text-align: left
+
+div.card-title
+    padding: 0 0 1em 0
+    font-weight: bold
+
+div.card-time
+    padding: 0 0 1em 0
+    color: $aux-color1-da
+
+div.card-content
+    padding: 0 0 1em 0
+
+div.card-action
+    padding: 0.7em 1em
+    background: $secondary-color
+    color: $primary-color
+    display: inline-block
+
+
+
+div.form-container
+    padding: 2em 0
+
+
+div.form
+    text-align: left
+    padding: 0em
+    margin: 1em 0
+
+div.form-fields
+    margin: 0.5em 0
+
+div.form-fields input[type=text]
+    width: 100%
+    padding: 1em
+    box-sizing : border-box
+
+div.form-fields input[type=submit]
+    float: right
+    padding: 1em
+    background: $secondary-color
+    color: $primary-color
+    border: 0
+
+
+
+div.footer
+    padding: 4em
+    text-align: center
+    color: #555
+    background: $aux-color1-li
+
+
+div.float-reset
+    float: none
+    clear: both
+
+
+
+
+/*
+ * ##Device = Laptops, Desktops
+ */
+@media (min-width: 1025px)
+
+    div.section-content
+        width: 800px
+
+    div.block
+        float: left
+        width: 216px
+        margin: 1em 10px
+        font-size: 90%
+
+    div.card
+        float: left
+        width: 216px
+        margin: 1em 10px
+        font-size: 90%
+
+    div.form
+        float: left
+        width: 380px
+        margin: 1em 10px
+
+    div.form-fields input
+        float: left
+        padding: 0.3em !important
+
+    div.form-fields input.shrink
+        width: 50%
+
+    div.form-fields input[type="submit"]
+        margin: 0.5em 0
+
+
+
+/*
+ * ## Device = Tablets
+ */
+@media (min-width: 768px) and (max-width: 1024px)
+
+    div.section-content
+        width: 600px
+
+    div.block
+        float: left
+        width: 145px
+        margin: 1em 10px
+
+    div.card
+        float: left
+        width: 145px
+        margin: 1em 10px
+
+    div.form
+        float: left
+        width: 280px
+        margin: 1em 10px
+
+    div.form-fields input
+        float: left
+        padding: 0.3em !important
+
+    div.form-fields input.shrink
+        width: 50%
+
+    div.form-fields input[type="submit"]
+        margin: 0.5em 0
+
