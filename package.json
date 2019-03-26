@@ -1,0 +1,23 @@
+{
+  "name": "regbo",
+  "version": "1.0.0",
+  "description": "simple php register example",
+  "main": "index.php",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakubmz/php-register-example.git"
+  },
+  "author": "Jakub Michal Zawada (jakubmz@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakubmz/php-register-example/issues"
+  },
+  "homepage": "https://github.com/jakubmz/php-register-example#readme"
+}
