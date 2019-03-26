@@ -15,7 +15,7 @@ gulp.task('sass', function () {
 
 gulp.task('watch', function () {
   return new Promise((resolve, reject) => {
-    gulp.watch('./src/**/*.sass', ['sass']);
+    gulp.watch('./src/**/*.sass', gulp.series('sass'));
     resolve()
   });
 });

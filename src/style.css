@@ -9,20 +9,16 @@ h2 {
 div.section {
   padding: 3em 1em 5em 1em;
   text-align: center; }
-
-div.section-content {
-  margin: auto; }
-
-.section-title {
-  text-align: center; }
-
-.section-subtitle {
-  text-align: center;
-  color: #aaa; }
-
-.section-text {
-  padding: 0 0 2em 0;
-  text-align: justify; }
+  div.section div.section-content {
+    margin: auto; }
+  div.section .section-title {
+    text-align: center; }
+  div.section .section-subtitle {
+    text-align: center;
+    color: #aaa; }
+  div.section .section-text {
+    padding: 0 0 2em 0;
+    text-align: justify; }
 
 div.block-container {
   padding: 2em 0; }
